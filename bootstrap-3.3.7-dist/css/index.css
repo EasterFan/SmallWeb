@@ -71,3 +71,71 @@
     margin-right: auto;
     border:1px solid #80fff8;
 }
+
+/* 轮播 */
+.lunbotu{
+    /*width: 100%;*/
+    /*height: 500px;*/
+    height: 500px;
+    width: 100%;
+
+    padding: 0;
+    z-index: 2;
+}
+
+.carousel-inner img{
+    width:100%;
+    height:100%;
+    border:1px solid #100e0f;
+}
+
+.carousel-control {               /* 这个箭头控制神奇，不完全懂 */
+    left: 250px;
+    width: 3%;
+    filter: alpha(opacity=50);
+    opacity: 7
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.one>.container {          /* 这句选择器什么意思 */
+    padding: 0;
+}
+
+
+/** 图标移动**/
+
+.leftprev img {
+    /**图标旋转180度transform: rotate(180deg);**/
+    margin-top: 300px;
+    margin-left: -450px;
+}
+
+.rightnext img {
+    margin-top: 300px;
+    margin-left: -10px;
+}
+
+
+/** 小圆点**/
+
+.carousel-indicators {
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    text-align: center;
+    /*border:1px solid #100e0f;*/
+
+}
+
+/*.lunbotu {*/
+    /*height: 460px;*/
+    /*width: 1200px;*/
+
+/*}*/
