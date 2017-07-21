@@ -2,6 +2,9 @@
 # 效果
 [](images/display.png)
 
+# 效果
+[](images/display.png)
+
 ## 练习目标
 
 学会使用Bootstrap UI组件制作简单的页面样式
