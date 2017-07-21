@@ -1,0 +1,37 @@
+
+
+
+/* 导航栏 */
+
+.navbar-brand img {
+    width: 142px;
+    height: 40px;
+    margin: 5px;
+}
+
+.navbar-default {
+    border: 0;
+    background-color: gray;
+    height: 60px;
+    z-index: 2;
+}
+
+.navdaohang ul:nth-child(1)>li>a {
+    padding: 0 20px;
+    margin: 10px 0;
+    display: block;         /* 有无display区别 */
+    color: #07111b;
+    text-align: center;
+    font-size: 16px;         /* 控制小矢量图的大小 */
+    height: 60px;
+    line-height: 60px;
+}
+
+.navdaohang ul:nth-child(1)>li>a:hover {
+    color: #F01414;
+    cursor: pointer;
+}
+
+
+
+
