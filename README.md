@@ -1,4 +1,6 @@
 # 练习：使用Bootstrap制作简单页面
+# 效果
+[](images/display.png)
 
 ## 练习目标
 
